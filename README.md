@@ -7,6 +7,7 @@ RealPython - Build a contact book with python, PyQt, and SQLite
 ├── app/
 │   ├── __init__.py
 │   ├── views.py
+│   ├── database.py
 │   └── main.py
 │
 └── rpcontact.py
@@ -14,4 +15,6 @@ RealPython - Build a contact book with python, PyQt, and SQLite
 
 ## requirements
 PyQt >= v5
-> pip install pyqt<__v__>
+> pip3 install pyqt<__v__>
+QtSql
+> apt install python3-pyqt5.qtsql
